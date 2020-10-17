@@ -1,5 +1,7 @@
 # 3500-ass2
 
+**NOTE THAT THIS REPO WAS MADE SO YOU DON'T HAVE TO SETUP YOUR DEV ENV FROM SCRATCH**
+
 ## Specification
 
 Design an architecture which includes:
