@@ -15,75 +15,75 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\Camera.cpp">
+    <ClCompile Include="src\Camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Frustum.cpp">
+    <ClCompile Include="src\Frustum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Ground.cpp">
+    <ClCompile Include="src\Ground.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\HUD.cpp">
+    <ClCompile Include="src\HUD.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\KeyManager.cpp">
+    <ClCompile Include="src\KeyManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\main.cpp">
+    <ClCompile Include="src\Messages.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Messages.cpp">
+    <ClCompile Include="src\MyVehicle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\MyVehicle.cpp">
+    <ClCompile Include="src\Quaternion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Quaternion.cpp">
+    <ClCompile Include="src\Shape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Shape.cpp">
+    <ClCompile Include="src\VectorMaths.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\VectorMaths.cpp">
+    <ClCompile Include="src\Vehicle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Vehicle.cpp">
+    <ClCompile Include="src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\Camera.hpp">
+    <ClInclude Include="include\Camera.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\Frustum.hpp">
+    <ClInclude Include="include\Frustum.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\Ground.hpp">
+    <ClInclude Include="include\Ground.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\HUD.hpp">
+    <ClInclude Include="include\HUD.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\KeyManager.hpp">
+    <ClInclude Include="include\KeyManager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\Messages.hpp">
+    <ClInclude Include="include\Messages.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\MyVehicle.hpp">
+    <ClInclude Include="include\MyVehicle.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\Quaternion.hpp">
+    <ClInclude Include="include\Quaternion.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\Shape.hpp">
+    <ClInclude Include="include\Shape.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\VectorMaths.hpp">
+    <ClInclude Include="include\VectorMaths.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\Vehicle.hpp">
+    <ClInclude Include="include\Vehicle.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
