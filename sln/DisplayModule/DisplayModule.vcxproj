@@ -13,8 +13,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8af61e1b-8675-41ae-9796-f27d9057ed49}</ProjectGuid>
-    <RootNamespace>ass2</RootNamespace>
+    <ProjectGuid>{1d58a0ea-1a08-4ea4-a26e-34e3a97f3d19}</ProjectGuid>
+    <RootNamespace>DisplayModule</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -56,13 +56,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <TreatWarningAsError>false</TreatWarningAsError>
-      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../include;include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>../lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -82,31 +81,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\Camera.cpp" />
-    <ClCompile Include="..\src\Frustum.cpp" />
-    <ClCompile Include="..\src\Ground.cpp" />
-    <ClCompile Include="..\src\HUD.cpp" />
-    <ClCompile Include="..\src\KeyManager.cpp" />
-    <ClCompile Include="..\src\main.cpp" />
-    <ClCompile Include="..\src\Messages.cpp" />
-    <ClCompile Include="..\src\MyVehicle.cpp" />
-    <ClCompile Include="..\src\Quaternion.cpp" />
-    <ClCompile Include="..\src\Shape.cpp" />
-    <ClCompile Include="..\src\VectorMaths.cpp" />
-    <ClCompile Include="..\src\Vehicle.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Frustum.cpp" />
+    <ClCompile Include="src\Ground.cpp" />
+    <ClCompile Include="src\HUD.cpp" />
+    <ClCompile Include="src\KeyManager.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Messages.cpp" />
+    <ClCompile Include="src\MyVehicle.cpp" />
+    <ClCompile Include="src\Quaternion.cpp" />
+    <ClCompile Include="src\Shape.cpp" />
+    <ClCompile Include="src\VectorMaths.cpp" />
+    <ClCompile Include="src\Vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\Camera.hpp" />
-    <ClInclude Include="..\include\Frustum.hpp" />
-    <ClInclude Include="..\include\Ground.hpp" />
-    <ClInclude Include="..\include\HUD.hpp" />
-    <ClInclude Include="..\include\KeyManager.hpp" />
-    <ClInclude Include="..\include\Messages.hpp" />
-    <ClInclude Include="..\include\MyVehicle.hpp" />
-    <ClInclude Include="..\include\Quaternion.hpp" />
-    <ClInclude Include="..\include\Shape.hpp" />
-    <ClInclude Include="..\include\VectorMaths.hpp" />
-    <ClInclude Include="..\include\Vehicle.hpp" />
+    <ClInclude Include="include\Camera.hpp" />
+    <ClInclude Include="include\Frustum.hpp" />
+    <ClInclude Include="include\Ground.hpp" />
+    <ClInclude Include="include\HUD.hpp" />
+    <ClInclude Include="include\KeyManager.hpp" />
+    <ClInclude Include="include\Messages.hpp" />
+    <ClInclude Include="include\MyVehicle.hpp" />
+    <ClInclude Include="include\Quaternion.hpp" />
+    <ClInclude Include="include\Shape.hpp" />
+    <ClInclude Include="include\VectorMaths.hpp" />
+    <ClInclude Include="include\Vehicle.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
